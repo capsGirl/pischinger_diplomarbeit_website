@@ -1,0 +1,119 @@
+body{
+	background-color:#fff;
+	font-size:13px;
+	font-family:'PT Sans',"Myriad Pro",Lucida Sans,Segoe UI, Calibri, Helvetica, Arial, sans-serif;
+}
+
+#header{
+	margin:20px;
+}
+
+#project_title{
+	font-size:30px;
+	position:absolute;
+	left:120px;
+	top:130px;
+	color:#777;
+	text-transform: uppercase;
+}
+
+#project_subtitle{
+	position:absolute;
+	top:170px;
+	left:550px;
+}
+
+#htllogo{
+	position:absolute;
+	left:620px;
+	top:20px;
+}
+
+#nav_container{
+	width:204px;
+	height:464px;
+	position:absolute;
+	top:110px;
+	left:0;
+	background-image:url(../images/leftBg.png);
+	color:#fff;
+	text-align: center;
+}
+
+
+#nav_container ul{
+	position:relative;
+	top:140px;
+	left:-5px;
+	margin:0;
+	padding:0;
+}
+
+#nav_container ul li{
+	list-style: none;
+	margin-bottom:10px;
+}
+
+#nav_container ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:20px;
+	padding-right:35px;
+}
+
+#nav_container ul li a.active{
+	font-weight:bold;
+}
+
+#nav_container ul li a:hover{
+	/*background-image:url(../images/go_mini.png);
+	background-position:right center;
+	background-repeat: no-repeat;
+	margin-left:5px;*/
+	font-weight: bold;
+}
+
+#msdata_logo{
+	width:180px;
+	height:42px;
+	background-image:url(../images/msdata_logo.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	top:636px;
+	left:0px;
+}
+
+#content{
+	width:600px;
+	height:auto;
+	position:relative;
+	left:200px;
+	top:80px;
+}
+
+#content a{
+	font-weight:bold;
+	color:#b0cd05;
+	text-decoration: none;
+}
+
+#footer_container{
+	position:relative;
+	margin-top:30px;
+	font-size:11px;
+	text-align: center;
+}
+
+h1{
+	margin:0;
+}
+
+h2{
+	font-size:15px;
+	margin:5px 0;
+	color:#333;
+}
+
+p{
+	line-height:1.3em;
+}
